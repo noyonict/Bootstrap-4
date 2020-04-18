@@ -1,0 +1,157 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+
+<body>
+    <div class="container my-5">
+        <h3 class="text-center bg-success text-danger">Button and Button Groups</h3>
+
+        <!-- Buttons -->
+        <button class="btn btn-primary" type="button">Primary</button>
+        <button class="btn btn-secondary" type="button">Secondary</button>
+        <button class="btn btn-success" type="button">Success</button>
+        <button class="btn btn-info" type="button">Info</button>
+        <button class="btn btn-warning" type="button">Warning</button>
+        <button class="btn btn-danger" type="button">Danger</button>
+        <button class="btn btn-link" type="button">Link</button>
+
+        <hr/>
+
+        <!-- Button tags  -->
+        <a class="btn btn-primary" href="#" role="button">Link</a>
+        <button class="btn btn-primary" type="submit">Button</button>
+        <input class="btn btn-primary" type="button" value="Input">
+        <input class="btn btn-primary" type="submit" value="Submit">
+        <input class="btn btn-primary" type="reset" value="Reseet">
+
+        <hr/>
+
+        <!-- Outline Buttons -->
+        <button class="btn btn-outline-primary" type="button">Primary</button>
+        <button class="btn btn-outline-secondary" type="button">Secondary</button>
+        <button class="btn btn-outline-success" type="button">Success</button>
+        <button class="btn btn-outline-info" type="button">Info</button>
+        <button class="btn btn-outline-warning" type="button">Warning</button>
+        <button class="btn btn-outline-danger" type="button">Danger</button>
+        <button class="btn btn-outline-link" type="button">Link</button>
+
+        <hr/>
+
+        <!-- Button Sizes -->
+        <button class="btn btn-primary btn-lg" type="button"><i class="fa fa-user"></i> Large Button</button>
+        <button class="btn btn-primary btn-sm" type="button"><i class="fa fa-envelope"></i> Small Button</button>
+        <button class="btn btn-primary btn-block mt-2" type="button"><i class="fa fa-user"></i> Block level Button</button>
+        
+        <hr/>
+
+
+        <!-- States -->
+        <button class="btn btn-danger" type="button">Regular Button</button>
+        <button class="btn btn-danger active" type="button">Active Button</button>
+        <button class="btn btn-danger disabled" type="button">Disabled Button</button>
+
+        <button type="button" class="btn btn-primary btn-toggle" data-toggle="button">Toggle State</button>
+
+        <hr/>
+
+
+        <!-- Button Dropdowns -->
+        <div class="dropdown">
+            <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">My Dropdown</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link One</a>
+                <a class="dropdown-item" href="#">Link Two</a>
+                <a class="dropdown-item" href="#">Link Three</a>
+                <a class="dropdown-item" href="#">Link Four</a>
+            </div>
+        </div>
+
+        <div class="dropdown dropup mt-2">
+            <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">My Dropdown Up</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link One</a>
+                <a class="dropdown-item" href="#">Link Two</a>
+                <a class="dropdown-item" href="#">Link Three</a>
+                <a class="dropdown-item" href="#">Link Four</a>
+            </div>
+        </div>
+
+        <hr/>
+
+        <!-- Split Dropdowns -->
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">My Button</button>
+            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"><span class="sr-only">Toggle Dropdown</span></button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link One</a>
+                <a class="dropdown-item" href="#">Link Two</a>
+                <a class="dropdown-item" href="#">Link Three</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Link Four</a>
+            </div>
+        </div>
+
+        <hr/>
+
+        <!-- Button Groups -->
+        <div class="btn-group">
+            <button class="btn btn-secondary" type="button">Left</button>
+            <button class="btn btn-primary" type="button">Middle</button>
+            <button class="btn btn-secondary" type="button">Right</button>
+        </div>
+
+        <hr/>
+
+        <!-- Button Toolbar -->
+
+        <div class="btn-toolbar" role="toolbar">
+            <div class="btn-group mr-2">
+                <button class="btn btn-primary" type="button">1</button>
+                <button class="btn btn-primary" type="button">2</button>
+                <button class="btn btn-primary" type="button">3</button>
+                <button class="btn btn-primary" type="button">4</button>
+            </div>
+            <div class="btn-group mr-2">
+                <button class="btn btn-danger" type="button">5</button>
+                <button class="btn btn-danger" type="button">6</button>
+                <button class="btn btn-danger" type="button">7</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-secondary" type="button">8</button>
+                <button class="btn btn-secondary" type="button">9</button>
+            </div>
+        </div>
+
+        <hr/>
+
+        <!-- Button Groups Vertical -->
+        <div class="btn-group-vertical">
+            <button class="btn btn-success" type="button">Left</button>
+            <button class="btn btn-warning" type="button">Middle</button>
+            <button class="btn btn-success" type="button">Right</button>
+        </div>
+
+        <hr/>
+
+
+    </div>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
